@@ -16,9 +16,8 @@ import subprocess as sp
 
 DEFAULTS = {
     'targets' : ['ar71xx-generic', 'ar71xx-tiny', 'ar71xx-nand',
-                 'mpc85xx-generic', 'ramips-mt7621', 'x86-generic',
-                 'x86-geode', 'x86-64', 'ramips-mt7620',
-                 'ramips-mt76x8'],
+                 'mpc85xx-generic', 'x86-generic',
+                 'x86-geode', 'x86-64', 'ramips-mt7620'],
     'gluon_dir': '/gluon',
     'make_cores' : "1",
     'make_loglevel': 'V=s',
