@@ -1,6 +1,5 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
-	gluon-alfred \
 	gluon-respondd \
 	gluon-autoupdater \
 	gluon-config-mode-core \
@@ -64,7 +63,7 @@ GLUON_SITE_PACKAGES += \
         kmod-usb-hid \
         kmod-usb-net \
         kmod-usb-net-asix \
-        kmod-usb-net-dm9601-ether 
+        kmod-usb-net-dm9601-ether
 endif
 
 ifeq ($(GLUON_TARGET),x86-64)
@@ -75,7 +74,7 @@ GLUON_SITE_PACKAGES += \
         kmod-usb-hid \
         kmod-usb-net \
         kmod-usb-net-asix \
-        kmod-usb-net-dm9601-ether 
+        kmod-usb-net-dm9601-ether
 endif
 
 # Add offline ssid, network drivers and usb stuff to raspberry and banana pi images
@@ -88,7 +87,7 @@ GLUON_SITE_PACKAGES += \
         kmod-usb-hid \
         kmod-usb-net \
         kmod-usb-net-asix \
-        kmod-usb-net-dm9601-ether 
+        kmod-usb-net-dm9601-ether
 endif
 
 ifeq ($(GLUON_TARGET),brcm2708-bcm2709)
