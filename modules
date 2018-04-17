@@ -3,9 +3,9 @@ PACKAGES_SSIDCHANGER_REPO=https://github.com/ffod/gluon-ssid-changer.git
 PACKAGES_SSIDCHANGER_COMMIT=f227f07254356307f8e0b7798ccaf1bf9f7ef88a
 PACKAGES_SSIDCHANGER_BRANCH=lede
 
-PACKAGES_SSIDCHANGER_REPO=https://github.com/ffod/ffki-packages.git
-PACKAGES_SSIDCHANGER_COMMIT=c23e5b25423c6eb68a694a2be70ac9a9a44daaf4
-PACKAGES_SSIDCHANGER_BRANCH=lede
+PACKAGES_FFKI_REPO=https://github.com/ffod/ffki-packages.git
+PACKAGES_FFKI_COMMIT=c23e5b25423c6eb68a694a2be70ac9a9a44daaf4
+PACKAGES_FFKI_BRANCH=lede
 
 ##	GLUON_SITE_FEEDS
 #		for each feed name given, add the corresponding PACKAGES_* lines
