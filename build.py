@@ -206,6 +206,9 @@ def publish():
         directory = str(ARGS.directory)
     except ValueError:
         raise ValueError("You need to provide a valid path eg. -d /var/www/firmware")
+    if "/origin" in ARGS.directory:
+        #allow /origin to be in path but replace it
+        ARGS.directory.replace("/origin", "")
     if os.path.isdir(directory):
         # direcotry/BRANCH/build.json
         if os.path.isdir("{}/{}".format(directory, DEFAULTS['branch'])):
