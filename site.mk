@@ -21,7 +21,10 @@ GLUON_SITE_PACKAGES := \
 	gluon-setup-mode \
 	gluon-status-page \
 	iwinfo \
-	haveged
+	haveged \
+        gluon-alt-esc-client \
+        gluon-alt-esc-provider
+
 
 # add offline ssid only if the target has wifi device
 ifeq ($(GLUON_TARGET),ar71xx-generic)
