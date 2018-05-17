@@ -1,10 +1,10 @@
-GLUON_SITE_FEEDS="ssidchanger, altesc"
+GLUON_SITE_FEEDS="ssidchanger altesc"
 
 PACKAGES_SSIDCHANGER_REPO=https://github.com/ffod/gluon-ssid-changer.git
 PACKAGES_SSIDCHANGER_COMMIT=f227f07254356307f8e0b7798ccaf1bf9f7ef88a
 PACKAGES_SSIDCHANGER_BRANCH=lede
 
-PACKAGES_ALTESC_REPO=https://github.com/rubo77/gluon-alt-esc
+PACKAGES_ALTESC_REPO=https://github.com/rubo77/gluon-alt-esc.git
 PACKAGES_ALTESC_COMMIT=2af0a7ea2517b4809bf38f2bc76725b22f44f7d6
 PACKAGES_ALT_BRANCH=master
 
